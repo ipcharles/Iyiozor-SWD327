@@ -1,0 +1,27 @@
+:root{
+    --color: black;
+    --background-color: rgb(255, 255, 255);
+    --container-color: rgb(0, 0, 0);
+}
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: var(--container-color);
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.greeting_2 {
+   color: var(--color);
+}
+.greeting_1{
+    color: var(--color)
+}
+.darkmode {
+    --color: rgb(255, 255, 255);
+    --background-color: rgb(0, 0, 0);
+    --container-color: rgb(255, 255, 255);
+}
+
